@@ -8,8 +8,8 @@ public class Student extends Person {
     }
     // Overriding the display method
     @Override
-    public void display() {
-        super.display();
+    public void displayinfo() {
+        super.displayinfo();
         System.out.println("Grade Level: " + this.gradeLevel);
     }
 }

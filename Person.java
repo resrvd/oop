@@ -15,10 +15,11 @@ public class Person {
         return this.id;
     }
     //Display method
-    public void display() {
+    public void displayinfo() {
         System.out.println("Name: " + this.name);
         System.out.println("ID: " + this.id);
     }
+    // SchoolTest Main Method
     public static void main (String[] args){
         // Create instances of subclasses
         Student student = new Student("Miguel", 2024101, "1st Year");
@@ -27,13 +28,10 @@ public class Person {
     
         // Display information
         System.out.println("Student Information:");
-        student.display();
+        student.displayinfo();
         System.out.println("\nTeacher Information:");
-        teacher.display();
+        teacher.displayinfo();
         System.out.println("\nStaff Information:");
-        staff.display();
+        staff.displayinfo();
     }
 }
-
-
-

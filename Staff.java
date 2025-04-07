@@ -7,8 +7,8 @@ public class Staff extends Person {
     }
     // Overriding the display method
     @Override
-    public void display() {
-        super.display(); // Call the display method of the Person class
+    public void displayinfo() {
+        super.displayinfo(); // Call the display method of the Person class
         System.out.println("Department: " + this.department);
     }
 }
