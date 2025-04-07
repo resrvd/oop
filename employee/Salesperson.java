@@ -1,4 +1,3 @@
-package employee;
 public class Salesperson extends Employee{
     private double commissionPercentage;
 

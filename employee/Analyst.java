@@ -1,4 +1,3 @@
-package employee;
 public class Analyst extends Employee {
 
     public Analyst(String name, int age, double salary) {
