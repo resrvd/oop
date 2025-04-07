@@ -22,5 +22,5 @@ public class oop {
     asd
     asd
     asd
-    
+    asd
 }
