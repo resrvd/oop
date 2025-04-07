@@ -1,3 +1,4 @@
+package Act3;
 public class Staff extends Person {
     private String department;
 
@@ -8,7 +9,7 @@ public class Staff extends Person {
     // Overriding the display method
     @Override
     public void displayinfo() {
-        super.displayinfo(); // Call the display method of the Person class
+        super.displayinfo();
         System.out.println("Department: " + this.department);
     }
 }

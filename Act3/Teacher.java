@@ -1,4 +1,6 @@
+package Act3;
 // Teacher Subclass
+
 public class Teacher extends Person{
     private String subject;
 
@@ -9,7 +11,7 @@ public class Teacher extends Person{
     // Overriding the display method
     @Override
     public void displayinfo() {
-        super.displayinfo(); // Call the display method of the Person class
+        super.displayinfo();
         System.out.println("Subject: " + this.subject);
     }
 }
